@@ -1,110 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf1b74c-b57a-4605-8f41-80e7c1a19f37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/androidTest/java/com/example/imooc_voice/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/test/java/com/example/imooc_voice/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/androidTest/java/com/example/lib_audio/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/test/java/com/example/lib_audio/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_common_ui/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_common_ui/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_common_ui/src/androidTest/java/com/example/lib_common_ui/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_common_ui/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_common_ui/src/test/java/com/example/lib_common_ui/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_image_loader/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_image_loader/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_image_loader/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_image_loader/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_image_loader/src/androidTest/java/com/example/lib_image_loader/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_image_loader/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_image_loader/src/test/java/com/example/lib_image_loader/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/androidTest/java/com/example/lib_network/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/test/java/com/example/lib_network/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_pullalive/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_pullalive/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_pullalive/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_pullalive/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_pullalive/src/androidTest/java/com/example/lib_pullalive/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_pullalive/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_pullalive/src/test/java/com/example/lib_pullalive/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_qrcode/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_qrcode/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_qrcode/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_qrcode/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_qrcode/src/androidTest/java/com/example/lib_qrcode/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_qrcode/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_qrcode/src/test/java/com/example/lib_qrcode/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_share/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_share/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_share/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_share/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_share/src/androidTest/java/com/example/lib_share/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_share/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_share/src/test/java/com/example/lib_share/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_update/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_update/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_update/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_update/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_update/src/androidTest/java/com/example/lib_update/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_update/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_update/src/test/java/com/example/lib_update/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_video/src/androidTest/java/com/example/lib_video/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_video/src/test/java/com/example/lib_video/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_webview/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_webview/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_webview/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_webview/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_webview/src/androidTest/java/com/example/lib_webview/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_webview/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_webview/src/test/java/com/example/lib_webview/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lib_common_ui/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/lib_common_ui/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/imooc_business/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/imooc_business/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/imooc_business/ui/theme/Color.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/imooc_business/ui/theme/Theme.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/imooc_business/ui/theme/Type.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/imooc_business/ExampleUnitTest.kt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xhdpi/b_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xhdpi/category.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc_voice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/androidTest/java/com/example/imooc_voice/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/test/java/com/example/imooc_voice/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib_audio/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_audio/src/androidTest/java/com/example/lib_audio/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_audio/src/test/java/com/example/lib_audio/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_common_ui/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_common_ui/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_image_loader/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_image_loader/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_network/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_network/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_pullalive/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_pullalive/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_qrcode/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_qrcode/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_share/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_share/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_update/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_update/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib_video/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_video/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_video/src/androidTest/java/com/example/lib_video/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_video/src/test/java/com/example/lib_video/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_webview/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_webview/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +49,14 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,20 +72,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "memory.settings.postsync.last.time.stamp": "1693376419786",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.do.not.copy.http.proxy.settings.to.gradle": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;memory.settings.postsync.last.time.stamp&quot;: &quot;1693810237501&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Suggestions&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xhdpi" />
+    </key>
+  </component>
   <component name="RunManager" selected="Android App.imooc_voice">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="imooc_business.app.main" />
@@ -279,6 +227,72 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="myapplication" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="imooc_business.myapplication.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -290,5 +304,16 @@
       <updated>1693375914119</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/build.gradle</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

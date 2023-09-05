@@ -4,10 +4,10 @@ plugins {
 
 android {
     namespace 'com.example.lib_common_ui'
-    compileSdk 33
+    compileSdk Integer.parseInt(project.property('android.compileSdk'))
 
     defaultConfig {
-        minSdk 19
+        minSdk Integer.parseInt(project.property('android.minSdk'))
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"

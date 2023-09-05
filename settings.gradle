@@ -3,6 +3,24 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven {
+            url "http://localhost:8081/repository/imooc_releases/"
+            allowInsecureProtocol = true
+            // 设置账号密码
+            credentials{
+                "admin"
+                "12345678"
+            }
+        }
+        maven {
+            url "http://localhost:8081/repository/imooc_snapshots/"
+            allowInsecureProtocol = true
+            // 设置账号密码
+            credentials{
+                "admin"
+                "12345678"
+            }
+        }
     }
 }
 dependencyResolutionManagement {
@@ -10,6 +28,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
     }
 }
 

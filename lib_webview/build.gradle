@@ -4,10 +4,10 @@ plugins {
 
 android {
     namespace 'com.example.lib_webview'
-    compileSdk 33
+    compileSdk Integer.parseInt(project.property('android.compileSdk'))
 
     defaultConfig {
-        minSdk 19
+        minSdk Integer.parseInt(project.property('android.minSdk'))
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -27,7 +27,7 @@ android {
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation "${project.property('depsLibs.appcompat')}:${project.property('depsVersion.appcompat')}"
     implementation 'com.google.android.material:material:1.8.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

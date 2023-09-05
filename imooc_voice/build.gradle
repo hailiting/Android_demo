@@ -1,19 +1,19 @@
 plugins {
     id 'com.android.application'
 }
-
 android {
     namespace 'com.example.imooc_voice'
-    compileSdk 33
+    compileSdk Integer.parseInt(project.property('android.compileSdk'))
 
     defaultConfig {
-        applicationId "com.example.imooc_voice"
-        minSdk 19
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        applicationId project.property("android.applicationId")
+        minSdk Integer.parseInt(project.property('android.minSdk'))
+        targetSdk Integer.parseInt(project.property('android.targetSdk'))
+        versionCode Integer.parseInt(project.property('android.versionCode'))
+        versionName project.property('android.versionName')
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled project.property('android.mutidex').toBoolean()
     }
 
     buildTypes {
@@ -29,9 +29,13 @@ android {
 }
 
 dependencies {
-
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation "com.github.hackware1993:MagicIndicator:{lastest-version}"
+    implementation "${project.property('depsLibs.appcompat')}:${project.property('depsVersion.appcompat')}"
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.fragment:fragment:1.4.0'
+    implementation 'com.github.hackware1993:MagicIndicator:1.7.0'
 }
