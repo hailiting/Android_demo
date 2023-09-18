@@ -10,34 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf1b74c-b57a-4605-8f41-80e7c1a19f37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xhdpi/b_p.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xhdpi/category.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/common/widget/ViewPager2Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/discory/DiscoryFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/friend/FriendFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/adpater/HomePagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/model/CHANNEL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/mine/MineFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc_voice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_audio/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_common_ui/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_common_ui/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_image_loader/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_image_loader/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_network/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_network/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_pullalive/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_pullalive/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_qrcode/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_qrcode/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_share/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_share/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_update/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_update/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_video/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_video/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_webview/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_webview/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_home.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,8 +67,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;android-custom-view/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED&quot;: &quot;ViewPager2&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;memory.settings.postsync.last.time.stamp&quot;: &quot;1693810237501&quot;,
+    &quot;memory.settings.postsync.last.time.stamp&quot;: &quot;1694497988320&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Suggestions&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
