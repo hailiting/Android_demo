@@ -27,7 +27,6 @@ android {
 }
 
 dependencies {
-
     implementation "${project.property('depsLibs.appcompat')}:${project.property('depsVersion.appcompat')}"
     implementation 'com.google.android.material:material:1.8.0'
     testImplementation 'junit:junit:4.13.2'

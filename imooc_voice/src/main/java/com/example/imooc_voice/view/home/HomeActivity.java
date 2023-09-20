@@ -53,7 +53,7 @@ public class HomeActivity extends  FragmentActivity implements View.OnClickListe
         mToggleView.setOnClickListener(this);
         mSearchView=findViewById(R.id.search_view);
         mViewPager=findViewById(R.id.view_pager);
-        mAdapter = new HomePagerAdapter(getSupportFragmentManager(), CHANNELS);
+        mAdapter = new HomePagerAdapter(this, CHANNELS);
         mViewPager.setAdapter(mAdapter);
         initMagicIndicator();
     }
@@ -69,14 +69,19 @@ public class HomeActivity extends  FragmentActivity implements View.OnClickListe
                 return CHANNELS == null ? 0 : CHANNELS.length;
             }
 
+//            @Override
+//            public IPagerTitleView getTitleView(Context context, int index) {
+//                return null;
+//            }
+
             @Override
             public IPagerTitleView getTitleView(Context context, int index) {
                 SimplePagerTitleView simplePagerTitleView = new SimplePagerTitleView(context);
                 simplePagerTitleView.setText(CHANNELS[index].getKey());
                 simplePagerTitleView.setTextSize(19);
                 simplePagerTitleView.setTypeface(Typeface.defaultFromStyle(Typeface.BOLD));
-                simplePagerTitleView.setNormalColor(Color.parseColor("#999"));
-                simplePagerTitleView.setSelectedColor(Color.parseColor("#333"));
+                simplePagerTitleView.setNormalColor(Color.parseColor("#999999"));
+                simplePagerTitleView.setSelectedColor(Color.parseColor("#333333"));
                 simplePagerTitleView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v){
