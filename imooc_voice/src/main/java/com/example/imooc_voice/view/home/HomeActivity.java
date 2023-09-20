@@ -8,13 +8,13 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.imooc_voice.R;
 import com.example.imooc_voice.view.common.widget.ViewPager2Helper;
 import com.example.imooc_voice.view.home.adpater.HomePagerAdapter;
 import com.example.imooc_voice.view.home.model.CHANNEL;
+import com.example.lib_common_ui.base.BaseActivity;
 
 import net.lucode.hackware.magicindicator.MagicIndicator;
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator;
@@ -23,7 +23,7 @@ import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerInd
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.SimplePagerTitleView;
 
-public class HomeActivity extends  FragmentActivity implements View.OnClickListener {
+public class HomeActivity extends BaseActivity implements View.OnClickListener {
     private static final CHANNEL[] CHANNELS = new CHANNEL[]{CHANNEL.MY, CHANNEL.DISCORY,CHANNEL.FRIEND};
 
     /**
@@ -68,12 +68,6 @@ public class HomeActivity extends  FragmentActivity implements View.OnClickListe
             public int getCount() {
                 return CHANNELS == null ? 0 : CHANNELS.length;
             }
-
-//            @Override
-//            public IPagerTitleView getTitleView(Context context, int index) {
-//                return null;
-//            }
-
             @Override
             public IPagerTitleView getTitleView(Context context, int index) {
                 SimplePagerTitleView simplePagerTitleView = new SimplePagerTitleView(context);
