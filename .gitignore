@@ -12,7 +12,10 @@ coverage.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log
-.gradle/*
-.idea/*
 *.env
 !example.env
+# 排除所有 .gradle 目录
+**/.gradle/
+
+# 排除所有 .idea 目录
+**/.idea/
