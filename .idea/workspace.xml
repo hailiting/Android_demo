@@ -9,13 +9,50 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddf1b74c-b57a-4605-8f41-80e7c1a19f37" name="Changes" comment="" />
+    <list default="true" id="ddf1b74c-b57a-4605-8f41-80e7c1a19f37" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/fragment_mine_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-hdpi/b_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-hdpi/category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-mdpi/b_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-mdpi/category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxhdpi/b_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxhdpi/category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxxhdpi/b_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxxhdpi/category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap/b_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap/category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/discory/DiscoryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/discory/DiscoryFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/friend/FriendFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/friend/FriendFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/adpater/HomePagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/adpater/HomePagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/model/CHANNEL.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/model/CHANNEL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/mine/MineFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/mine/MineFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/admin/.android/avd/Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[788e6720]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -35,6 +72,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2UgzGC5mbHJ0zGil8I9h8Ejpgb8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,26 +83,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "android-custom-view/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED": "ViewPager2",
-    "cidr.known.project.marker": "true",
-    "memory.settings.postsync.last.time.stamp": "1695175620369",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.do.not.copy.http.proxy.settings.to.gradle": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PROJECT_TRUSTED_KEY&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;android-custom-view/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED&quot;: &quot;ViewPager2&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/admin/Desktop/imooc_business/imooc_voice/src/main/res&quot;,
+    &quot;memory.settings.postsync.last.time.stamp&quot;: &quot;1695175620369&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.imooc_voice.view.home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/imooc_voice/src/main/res" />
+      <recent name="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-hdpi" />
+      <recent name="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-mdpi" />
+      <recent name="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxxhdpi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/imooc_voice/src/main/res/values-v21" />
       <recent name="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xhdpi" />
@@ -282,6 +334,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -290,7 +353,18 @@
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="AndroidRunConfigurationType">
+        <watch expression="000000" language="JAVA" />
+        <watch expression="000000" language="JAVA" />
+        <watch expression="000000" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

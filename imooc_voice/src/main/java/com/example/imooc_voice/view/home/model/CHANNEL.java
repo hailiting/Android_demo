@@ -2,7 +2,7 @@ package com.example.imooc_voice.view.home.model;
 
 public enum CHANNEL {
     MY("我的", 0x01),
-    DISCORY("", 0x02),
+    DISCORY("222222", 0x02),
     FRIEND("Py", 0x03),
     VIDEO("视频", 0x04);
 

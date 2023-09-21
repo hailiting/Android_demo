@@ -30,16 +30,16 @@ public class HomePagerAdapter extends FragmentStateAdapter {
     @NonNull
     @Override
     public Fragment createFragment(int position) {
-       int type = mList[position].getValue();
-       // 逐一创建，提高内存使用率
-       switch (type){
-           case CHANNEL.MINE_ID:
-               return MineFragment.newInstance();
-           case CHANNEL.DISCORY_ID:
-               return DiscoryFragment.newInstance();
-           case CHANNEL.FRIEND_ID:
-               return FriendFragment.newInstance();
-       }
-       return  null;
+        int type = mList[position].getValue();
+        // 逐一创建，提高内存使用率
+        switch (type){
+            case CHANNEL.MINE_ID:
+                return MineFragment.newInstance();
+            case CHANNEL.DISCORY_ID:
+                return DiscoryFragment.newInstance();
+            case CHANNEL.FRIEND_ID:
+                return FriendFragment.newInstance();
+        }
+        return  null;
     }
 }
