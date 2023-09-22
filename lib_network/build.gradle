@@ -26,10 +26,8 @@ android {
 }
 
 dependencies {
-
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "${project.property('depsLibs.appcompat')}:${project.property('depsVersion.appcompat')}"
-    implementation 'com.google.android.material:material:1.8.0'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    api project.property('depsLibs.okhttp')
+    compileOnly project.property('depsLibs.gson')
 }

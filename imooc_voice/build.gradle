@@ -39,4 +39,6 @@ dependencies {
 
     implementation 'androidx.fragment:fragment:1.4.0'
     implementation 'com.github.hackware1993:MagicIndicator:1.7.0'
+
+    implementation project(':lib_network')
 }
