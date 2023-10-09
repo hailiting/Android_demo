@@ -33,6 +33,7 @@ dependencies {
     implementation "${project.property('depsLibs.appcompat')}:${project.property('depsVersion.appcompat')}"
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
     implementation project(path: ':lib_common_ui')
+    implementation project(path: ':lib_image_loader')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
@@ -41,4 +42,5 @@ dependencies {
     implementation 'com.github.hackware1993:MagicIndicator:1.7.0'
 
     implementation project(':lib_network')
+    implementation project.property('depsLibs.eventBus')
 }

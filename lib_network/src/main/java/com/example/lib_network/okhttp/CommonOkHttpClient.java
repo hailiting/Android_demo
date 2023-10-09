@@ -5,19 +5,21 @@ import com.example.lib_network.okhttp.response.CommonFileCallback;
 import com.example.lib_network.okhttp.response.CommonJsonCallback;
 
 import java.io.IOException;
+import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;
 
 import okhttp3.Call;
+import okhttp3.ConnectionSpec;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
 public class CommonOkHttpClient {
-    private static final int TIME_OUT = 30;
+    private static final int TIME_OUT = 30000;
     private static OkHttpClient mOkHttpClient;
 
     // 完成对okhttpClient初始化
@@ -42,7 +44,7 @@ public class CommonOkHttpClient {
         okhttpClientBuilder.readTimeout(TIME_OUT, TimeUnit.SECONDS);
         okhttpClientBuilder.writeTimeout(TIME_OUT, TimeUnit.SECONDS);
         okhttpClientBuilder.followRedirects(true);
-        mOkHttpClient = okhttpClientBuilder.build();
+        mOkHttpClient = okhttpClientBuilder.connectionSpecs(Collections.singletonList(ConnectionSpec.CLEARTEXT)).build();
     }
     public static Call get(Request request, DisposeDataHandle handle){
         Call call = mOkHttpClient.newCall(request);

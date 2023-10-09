@@ -10,25 +10,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf1b74c-b57a-4605-8f41-80e7c1a19f37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/api/RequestCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/CommonOkHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/exception/OkHttpException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/listener/DisposeDataHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/listener/DisposeDataListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/listener/DisposeDownloadListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/request/CommonRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/request/RequestParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/response/CommonFileCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/response/CommonJsonCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/utils/ResponseEntityToModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/model/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/manager/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/user/LoginEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/user/UserContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/drawable/bg_home_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/drawable/bg_mobile_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_login_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/SpreadView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/circle_image_view/CircleImageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_common_ui/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_common_ui/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_image_loader/src/main/java/com/example/lib_image_loader/app/ImageLoaderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_image_loader/src/main/java/com/example/lib_image_loader/image/CustomRequestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_image_loader/src/main/java/com/example/lib_image_loader/image/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc_voice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_network/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_network/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/api/RequestCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/api/RequestCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_image_loader/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_image_loader/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_network/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib_network/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/CommonOkHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/CommonOkHttpClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +64,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
+        <option value="valueResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -66,24 +87,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "PROJECT_TRUSTED_KEY": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "android-custom-view/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED": "ViewPager2",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/admin/Desktop/imooc_business/imooc_voice/src/main/res",
-    "memory.settings.postsync.last.time.stamp": "1695263605788",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.do.not.copy.http.proxy.settings.to.gradle": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PROJECT_TRUSTED_KEY&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;android-custom-view/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED&quot;: &quot;ViewPager2&quot;,
+    &quot;android-custom-view/Users/admin/Desktop/imooc_business/lib_common_ui/src/main/java/com/example/lib_common_ui/SpreadView.java_SELECTED&quot;: &quot;SpreadView&quot;,
+    &quot;android-custom-view/Users/admin/Desktop/imooc_business/lib_common_ui/src/main/java/com/example/lib_common_ui/circle_image_view/CircleImageView.java_SELECTED&quot;: &quot;CircleImageView&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/admin/Desktop/imooc_business/imooc_voice/src/main/res&quot;,
+    &quot;memory.settings.postsync.last.time.stamp&quot;: &quot;1695637096627&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
@@ -331,14 +355,52 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/lib_audio/build.gradle</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java</url>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/api/RequestCenter.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/response/CommonJsonCallback.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_network/src/main/java/com/example/lib_network/okhttp/CommonOkHttpClient.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/LoginActivity.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/example/lib_image_loader/app/ImageLoaderManager.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/LoginActivity.java</url>
+          <line>46</line>
+          <properties class="com.example.imooc_voice.view.login.LoginActivity" method="onFailure">
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -347,6 +409,7 @@
         <watch expression="000000" language="JAVA" />
         <watch expression="000000" language="JAVA" />
         <watch expression="000000" language="JAVA" />
+        <watch expression="HttpConstants.LOGIN" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
