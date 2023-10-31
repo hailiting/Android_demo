@@ -30,6 +30,7 @@ import com.example.lib_image_loader.image.Utils;
 
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
@@ -95,36 +96,38 @@ public class ImageLoaderManager {
      * @param group
      * @param url
      */
-    public void displayImageForViewGroup(final ViewGroup group, String url) {
+
+    public void displayImageForViewGroup(final ViewGroup group, String url, final int radius) {
         Glide.with(group.getContext())
                 .asBitmap()
                 .load(url)
                 .apply(initCommonRequestOption())
-                .into(new SimpleTarget<Bitmap>() {
+                .into(new SimpleTarget<Bitmap>() {//设置宽高
                     @Override
-                    public void onResourceReady(@NonNull final Bitmap resource, @Nullable Transition<? super Bitmap> transition) {
-                        Observable.just(resource)
+                    public void onResourceReady(@NonNull Bitmap resource,
+                                                @Nullable Transition<? super Bitmap> transition) {
+                        final Bitmap res = resource;
+                        Disposable subscribe = Observable.just(resource)
                                 .map(new Function<Bitmap, Drawable>() {
                                     @Override
                                     public Drawable apply(Bitmap bitmap) {
-                                        Drawable drawable = new BitmapDrawable(
-                                                Utils.doBlur(resource, 100, true)
+                                        return new BitmapDrawable(
+                                                //毛玻璃效果
+                                                Utils.doBlur(res, radius, true)
                                         );
-                                        return drawable;
                                     }
                                 })
                                 .subscribeOn(Schedulers.io())
                                 .observeOn(AndroidSchedulers.mainThread())
                                 .subscribe(new Consumer<Drawable>() {
                                     @Override
-                                    public void accept(Drawable drawable) throws Exception {
+                                    public void accept(Drawable drawable) {
                                         group.setBackground(drawable);
                                     }
                                 });
                     }
                 });
     }
-
     /**
      * 为notification中的id控件加载图片
      *

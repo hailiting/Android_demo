@@ -132,7 +132,7 @@ public class BottomMusicView extends RelativeLayout {
     }
     private void showPauseView(){
         if(mAudioBean != null){
-            mPlayView.setImageResource(R.mipmap.note_btn_pause_white);
+            mPlayView.setImageResource(R.mipmap.note_btn_play_white);
         }
     }
 }

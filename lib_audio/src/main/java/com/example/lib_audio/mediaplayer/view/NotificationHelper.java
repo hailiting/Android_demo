@@ -20,6 +20,11 @@ import com.example.lib_audio.mediaplayer.db.RoomHelper;
 import com.example.lib_audio.mediaplayer.model.AudioBean;
 import com.example.lib_image_loader.app.ImageLoaderManager;
 
+/**
+ * 音乐Notification帮助类
+ * 1. 完成notification的创建和初始化
+ * 2. 对外提供表更新notification的方法
+ */
 public class NotificationHelper {
     public static final String CHANNEL_ID = "channel_id_audio";
     public static final String CHANNEL_NAME = "channel_name_audio";
