@@ -34,6 +34,7 @@ dependencies {
     implementation 'androidx.viewpager2:viewpager2:1.0.0'
     implementation project(path: ':lib_common_ui')
     implementation project(path: ':lib_image_loader')
+    implementation project(path: ':lib_audio')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
@@ -43,4 +44,20 @@ dependencies {
 
     implementation project(':lib_network')
     implementation project.property('depsLibs.eventBus')
+    // greendao 插件依赖
+//    implementation 'org.greenrobot:greendao:3.3.1'
+    implementation 'androidx.room:room-runtime:2.4.0'
+    annotationProcessor 'androidx.room:room-compiler:2.4.0'
 }
+//tasks.configureEach { task ->
+//    if (task.name.matches("\\w*compile\\w*Kotlin")) {
+//        task.dependsOn('greendao')
+//    }
+//    if (task.name.matches("\\w*kaptGenerateStubs\\w*Kotlin")) {
+//        task.dependsOn('greendao')
+//    }
+//
+//    if (task.name.matches("\\w*kapt\\w*Kotlin")) {
+//        task.dependsOn('greendao')
+//    }
+//}

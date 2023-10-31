@@ -3,6 +3,7 @@ package com.example.imooc_voice.view.login;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.Nullable;
@@ -30,6 +31,7 @@ public class LoginActivity extends BaseActivity implements DisposeDataListener {
         findViewById(R.id.login_view).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
+                Log.d("dddd", "111");
                 RequestCenter.login(LoginActivity.this);
             }
         });

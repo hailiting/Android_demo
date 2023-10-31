@@ -29,6 +29,6 @@ public class RequestCenter {
         RequestParams params = new RequestParams();
         params.put("mb", "18734924592");
         params.put("pwd", "999999q");
-        RequestCenter.postRequest("http://192.168.0.7:3000/api/example", params, listener, User.class);
+        RequestCenter.postRequest("http://192.168.0.11:3000/api/example", params, listener, User.class);
     }
 }
