@@ -59,6 +59,7 @@ MediaPlayer.OnErrorListener,
                         // UI类型处理事件
                         EventBus.getDefault()
                                 .post(new AudioProgressEvent(getStatus(), getCurrentPosition(), getDuration()));
+                        sendEmptyMessageDelayed(TIME_MSG, TIME_INVAL);
                     }
                     break;
             }
@@ -88,13 +89,14 @@ MediaPlayer.OnErrorListener,
         // 没有焦点，说明有其他播放器在播放
         if(!mAudioFocusManager.requestAudioFocus()){
             Log.e(TAG, "获取音频焦点失败");
-        } else {
-            // 正式进入播放状态
-            mMediaPlayer.start();
-            mWifiLock.acquire();
-            // 对外发送start事件
-            EventBus.getDefault().post(new AudioStartEvent());
         }
+        // 正式进入播放状态
+        mMediaPlayer.start();
+        mWifiLock.acquire();
+        // 更新进度
+        mHandler.sendEmptyMessage(TIME_MSG);
+        // 对外发送start事件
+        EventBus.getDefault().post(new AudioStartEvent());
     }
 
     // 对外提供的加载，让外部去加载
@@ -162,6 +164,7 @@ MediaPlayer.OnErrorListener,
         }
         mAudioFocusManager = null;
         mWifiLock = null;
+        mHandler.removeCallbacksAndMessages(null);
         // 发送release销毁事件
         EventBus.getDefault().post(new AudioReleaseEvent());
     }

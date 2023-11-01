@@ -5,17 +5,16 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.example.lib_audio.mediaplayer.model.AudioBean;
+import com.example.lib_audio.mediaplayer.model.Favourite;
 
 @Dao
 public interface FavouriteDao {
     @Insert
-    void insert(AudioBean bean);
+    void insert(Favourite bean);
     @Delete
-    void delete(AudioBean bean);
-    @Query("SELECT * FROM favourite WHERE id = :audioId LIMIT 1")
-    AudioBean findByAudioId(String  audioId);
-    @Query("DELETE FROM favourite WHERE id = :audioId")
+    void delete(Favourite bean);
+    @Query("SELECT * FROM favourite WHERE audioId = :audioId LIMIT 1")
+    Favourite findByAudioId(String  audioId);
+    @Query("DELETE FROM favourite WHERE audioId = :audioId")
     void deleteByAudioId(String audioId);
-
 }

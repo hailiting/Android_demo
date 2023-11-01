@@ -42,24 +42,27 @@ public class MusicService extends Service implements NotificationHelper.Notifica
      * data
      */
     private ArrayList<AudioBean> mAudioBeans;
-    private NotificationReceiver mReceiver;
+    private NotificationReceiver mReceiver; // 接收NotificationHelper发出的广播
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
         return null;
     }
 
+    /**
+     * 回调方法, 把notification 与service绑定，并成为前台service
+     */
     @Override
     public void onNotificationInit() {
         // 绑定notification与service，并使服务成为前台服务
         startForeground(NOTIFICATION_ID, NotificationHelper.getInstance().getNotification());
     }
 
-
+    // notification跑到的是系统的 和eventbus(系统的)不跑在一个线程，所有不能再notificationHelper理 subscribe
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onAudioLoadEvent(AudioLoadEvent event) {
         // 更新notification状态为加载态
-//        NotificationHelper.getInstance().showLoadStatus(event.mAudioBean);
+        NotificationHelper.getInstance().showLoadStatus(event.mAudioBean);
     }
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onAudioStartEvent(AudioStartEvent event) {
@@ -86,10 +89,11 @@ public class MusicService extends Service implements NotificationHelper.Notifica
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         mAudioBeans = (ArrayList<AudioBean>) intent.getSerializableExtra(DATA_AUDIOS);
+        // 服务正常启动
         if(intent.getAction().equals(ACTION_START)){
             // 播放音乐
             playMusic();
-            // 初始化notification
+            // 创建与初始化notification
             NotificationHelper.getInstance().init(this);
         }
         return super.onStartCommand(intent, flags, startId);
@@ -154,8 +158,9 @@ public class MusicService extends Service implements NotificationHelper.Notifica
                     break;
                 case EXTRA_NEXT:
                     AudioController.getInstance().next();
-                    break; case EXTRA_FAV:
-                        // 收藏广播处理
+                    break;
+                case EXTRA_FAV:
+                    // 收藏广播处理
                     AudioController.getInstance().changeFavourite();
                     break;
 

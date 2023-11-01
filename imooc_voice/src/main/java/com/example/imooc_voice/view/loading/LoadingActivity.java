@@ -30,7 +30,10 @@ public class LoadingActivity extends BaseActivity {
         if(hasPermission(Constant.WRITE_READ_EXTERNAL_PERMISSION)){
             doSDCardPermission();
         } else  {
-            requestPermission(Constant.WRITE_READ_EXTERNAL_CODE, Constant.WRITE_READ_EXTERNAL_PERMISSION);
+            requestPermission(
+                    Constant.WRITE_READ_EXTERNAL_CODE,
+                    Constant.WRITE_READ_EXTERNAL_PERMISSION
+            );
         }
     }
     public void doSDCardPermission() {

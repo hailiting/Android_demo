@@ -80,6 +80,7 @@ public class MusicPlayerActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            // 为当前activity添加入场动画
             getWindow().setEnterTransition(
                     TransitionInflater.from(this)
                             .inflateTransition(
@@ -143,7 +144,7 @@ public class MusicPlayerActivity extends BaseActivity {
         mFavouriteView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                AudioController.getInstance().changeFavourite();
+                AudioController.getInstance().changeFavourite();
             }
         });
 

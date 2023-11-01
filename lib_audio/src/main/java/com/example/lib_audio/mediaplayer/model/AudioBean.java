@@ -8,7 +8,8 @@ import androidx.room.PrimaryKey;
 
 
 import java.io.Serializable;
-@Entity(tableName = "favourite",
+// Entity -> AudioBean 这个类生成一个表
+@Entity(tableName = "audioBean",
     indices = {@Index(value = "mUrl", unique = true)})
 public class AudioBean implements Serializable {
     private static final long serialVersionUID = -8849228294348905620L;

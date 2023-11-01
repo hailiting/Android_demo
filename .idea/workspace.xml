@@ -10,136 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf1b74c-b57a-4605-8f41-80e7c1a19f37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/application/ImoocVoiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/loading/LoadingActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_loading_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/xml/network_security_config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/app/AudioHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioFocusManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/CustomMediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/MusicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/db/AppDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/db/Converters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/db/RoomHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/events/AudioCompleteEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/events/AudioErrorEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/events/AudioFavoriteEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/events/AudioLoadEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/events/AudioPauseEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/events/AudioPlayModeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/events/AudioProgressEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/events/AudioReleaseEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/events/AudioStartEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/exception/AudioQueueEmptyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/model/AudioBean.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/model/Favourite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/model/room/FavouriteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/BottomMusicView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/IndicatorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicListDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/NotificationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/adpater/MusicListAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/adpater/MusicPagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/drawable/bg_seekbar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/drawable/bg_thumb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/drawable/shape_seekbar_btn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/layout/activity_music_service_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/layout/bottom_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/layout/dialog_bottom_sheet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/layout/dialog_bottom_sheet_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/layout/indictor_item_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/layout/indictor_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/layout/notification_big_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/layout/notification_small_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/a0a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/a0f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/aj9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_aef.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_aeh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_aj6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_aj7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_aj8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_aja.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_ajb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_ajc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_akg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_ano.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_anu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_anw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_anx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_apa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_b2i.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_b3b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_b3f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_black_cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_middle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/audio_share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/b4i.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/b6o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/loop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/note_btn_love_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/note_btn_loved.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/note_btn_next_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/note_btn_pause_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/note_btn_play_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/note_btn_pre_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/once.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/player_loop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/player_once.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/player_random.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/player_settings_bright_thumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/mipmap-xhdpi/random.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/res/transition/transition_bottom2top.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/lrc/LrcView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/model/room/AudioBeanDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/api/RequestCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/api/RequestCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-hdpi/b_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-hdpi/category.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-mdpi/b_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-mdpi/category.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxhdpi/b_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxhdpi/category.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxxhdpi/b_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxxhdpi/category.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap/b_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap/category.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_audio/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/loading/LoadingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/loading/LoadingActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib_audio/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/BaseActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_image_loader/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib_image_loader/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/MusicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/MusicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/db/AppDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/db/AppDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/db/RoomHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/db/RoomHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/model/AudioBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/model/AudioBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/model/room/FavouriteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/model/room/FavouriteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/BottomMusicView.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/BottomMusicView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/IndicatorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/IndicatorView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/NotificationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/NotificationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/adpater/MusicPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/adpater/MusicPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/constant/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/constant/Constant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,14 +48,31 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="imooc_business" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile_vertical" />
-        <option value="valueResourceFile" />
         <option value="resourceFile" />
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -180,30 +93,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "PROJECT_TRUSTED_KEY": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "android-custom-view/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED": "ViewPager2",
-    "android-custom-view/Users/admin/Desktop/imooc_business/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/BottomMusicView.java_SELECTED": "BottomMusicView",
-    "android-custom-view/Users/admin/Desktop/imooc_business/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/IndicatorView.java_SELECTED": "IndicatorView",
-    "android-custom-view/Users/admin/Desktop/imooc_business/lib_common_ui/src/main/java/com/example/lib_common_ui/SpreadView.java_SELECTED": "SpreadView",
-    "android-custom-view/Users/admin/Desktop/imooc_business/lib_common_ui/src/main/java/com/example/lib_common_ui/circle_image_view/CircleImageView.java_SELECTED": "CircleImageView",
-    "android-custom-view/Users/admin/Desktop/imooc_business/lib_common_ui/src/main/java/com/example/lib_common_ui/lrc/LrcView.java_SELECTED": "LrcView",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "last_opened_file_path": "/Users/admin/Desktop/imooc_business/imooc_voice/src/main/res/layout",
-    "memory.settings.postsync.last.time.stamp": "1695637096627",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "show.do.not.copy.http.proxy.settings.to.gradle": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PROJECT_TRUSTED_KEY&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowLogcat.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;android-custom-view/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED&quot;: &quot;ViewPager2&quot;,
+    &quot;android-custom-view/Users/admin/Desktop/imooc_business/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/BottomMusicView.java_BottomMusicView_WRAP_CONTENT_H&quot;: &quot;true&quot;,
+    &quot;android-custom-view/Users/admin/Desktop/imooc_business/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/BottomMusicView.java_BottomMusicView_WRAP_CONTENT_W&quot;: &quot;true&quot;,
+    &quot;android-custom-view/Users/admin/Desktop/imooc_business/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/BottomMusicView.java_SELECTED&quot;: &quot;BottomMusicView&quot;,
+    &quot;android-custom-view/Users/admin/Desktop/imooc_business/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/IndicatorView.java_SELECTED&quot;: &quot;IndicatorView&quot;,
+    &quot;android-custom-view/Users/admin/Desktop/imooc_business/lib_common_ui/src/main/java/com/example/lib_common_ui/SpreadView.java_SELECTED&quot;: &quot;SpreadView&quot;,
+    &quot;android-custom-view/Users/admin/Desktop/imooc_business/lib_common_ui/src/main/java/com/example/lib_common_ui/circle_image_view/CircleImageView.java_SELECTED&quot;: &quot;CircleImageView&quot;,
+    &quot;android-custom-view/Users/admin/Desktop/imooc_business/lib_common_ui/src/main/java/com/example/lib_common_ui/lrc/LrcView.java_SELECTED&quot;: &quot;LrcView&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/admin/Desktop/imooc_business/imooc_voice/src/main/res/layout&quot;,
+    &quot;memory.settings.postsync.last.time.stamp&quot;: &quot;1695637096627&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;android-custom-view/Users/admin/Desktop/imooc_business/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/BottomMusicView.java_BottomMusicView_DIMENSIONS&quot;: [
+      &quot;1080&quot;,
+      &quot;1920&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
@@ -225,6 +147,7 @@
       <recent name="$PROJECT_DIR$/imooc_voice/src/main/res/mipmap-xhdpi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.lib_audio.mediaplayer.model.room" />
       <recent name="com.example.lib_audio.mediaplayer.model" />
       <recent name="com.example.imooc_voice.view.home" />
     </key>
@@ -478,125 +401,110 @@
           <line>56</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/home/HomeActivity.java</url>
-          <line>177</line>
-          <option name="timeStamp" value="20" />
+          <line>84</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/MusicService.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/IndicatorView.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicListDialog.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioPlayer.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/IndicatorView.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/BottomMusicView.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioController.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java</url>
+          <line>216</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java</url>
+          <line>236</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicPlayerActivity.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/LoginActivity.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioPlayer.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_image_loader/src/main/java/com/example/lib_image_loader/app/ImageLoaderManager.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioPlayer.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/LoginActivity.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioPlayer.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/LoginActivity.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/loading/LoadingActivity.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/loading/LoadingActivity.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/BaseActivity.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/BaseActivity.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/BaseActivity.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/BaseActivity.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/BaseActivity.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/BaseActivity.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/base/BaseActivity.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/loading/LoadingActivity.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/utils/StatusBarUtil.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/utils/StatusBarUtil.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/utils/StatusBarUtil.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/utils/StatusBarUtil.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib_common_ui/src/main/java/com/example/lib_common_ui/utils/StatusBarUtil.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/loading/LoadingActivity.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/loading/LoadingActivity.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/loading/LoadingActivity.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/loading/LoadingActivity.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="45" />
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioPlayer.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="184" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/imooc_voice/src/main/java/com/example/imooc_voice/view/login/LoginActivity.java</url>
@@ -605,6 +513,30 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/view/MusicListDialog.java</url>
+          <line>116</line>
+          <properties class="com.example.lib_audio.mediaplayer.view.MusicListDialog" method="onAudioLoadEvent">
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$USER_HOME$/Library/Android/sdk/platforms/android-33/android.jar!/android/app/PendingIntent.class</url>
+          <line>49</line>
+          <properties class="android.app.PendingIntent" method="getBroadcast">
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/lib_audio/src/main/java/com/example/lib_audio/mediaplayer/core/AudioPlayer.java</url>
+          <line>53</line>
+          <properties method="handleMessage">
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="183" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

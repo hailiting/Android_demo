@@ -61,6 +61,7 @@ public class NotificationHelper {
         mAudioBean = AudioController.getInstance().getNowPlaying();
         initNotification();
         mListener = listener;
+        // 这里绑定
         if(mListener != null) mListener.onNotificationInit();
     }
 
@@ -77,15 +78,21 @@ public class NotificationHelper {
                 NotificationChannel channel = new NotificationChannel(CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_HIGH);
                 channel.enableLights(false);
                 channel.enableVibration(false);
+                channel.setLockscreenVisibility(Notification.VISIBILITY_PRIVATE);
                 mNotificationManager.createNotificationChannel(channel);
             }
+            // 创建notification的模板代码
             Intent intent = new Intent(AudioHelper.getContext(), MusicPlayerActivity.class);
             PendingIntent pendingIntent = PendingIntent.getActivity(AudioHelper.getContext(), 0, intent, PendingIntent.FLAG_IMMUTABLE);
             NotificationCompat.Builder builder = new NotificationCompat.Builder(AudioHelper.getContext(), CHANNEL_ID)
                     .setContentIntent(pendingIntent)
-                    .setSmallIcon(R.mipmap.ic_launcher)
+                    .setSmallIcon(R.mipmap.ic_launcher) // 设置图标
                     .setCustomBigContentView(mRemoteViews)// 大布局
-                    .setContent(mSmallRemoteViews); // 正常布局，两个布局可以切换
+                    .setContent(mSmallRemoteViews)// 正常布局，两个布局可以切换
+                    .setCategory(Notification.CATEGORY_SERVICE)
+                    .setPriority(Notification.PRIORITY_LOW)
+                    .setShowWhen(true)
+                    ;
             mNotification = builder.build();
             showLoadStatus(mAudioBean);
         }
@@ -110,16 +117,14 @@ public class NotificationHelper {
         mSmallRemoteViews.setTextViewText(R.id.tip_view, mAudioBean.album);
 
         // 点击播放按钮广播
-//        Intent playIntent = new Intent(MusicService.NotificationReceiver.ACTION_STATUS_BAR);
-//        playIntent.putExtra(MusicService.NotificationReceiver.EXTRA, MusicService.NotificationReceiver.EXTRA_PLAY);
-//        PendingIntent playPendingIntent = PendingIntent.getBroadcast(AudioHelper.getContext(), 1, playIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-//        mRemoteViews.setOnClickPendingIntent(R.id.play_view, playPendingIntent);
-//        mRemoteViews.setImageViewResource(R.id.play_view, R.mipmap.note_btn_play_white);
         Intent playIntent = new Intent(MusicService.NotificationReceiver.ACTION_STATUS_BAR);
+            // 要发送的数据
         playIntent.putExtra(MusicService.NotificationReceiver.EXTRA, MusicService.NotificationReceiver.EXTRA_PLAY);
         PendingIntent playPendingIntent = PendingIntent.getBroadcast(AudioHelper.getContext(), 1, playIntent, PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
         mRemoteViews.setOnClickPendingIntent(R.id.play_view, playPendingIntent);
         mRemoteViews.setImageViewResource(R.id.play_view, R.mipmap.note_btn_play_white);
+        mSmallRemoteViews.setOnClickPendingIntent(R.id.play_view, playPendingIntent);
+        mSmallRemoteViews.setImageViewResource(R.id.play_view, R.mipmap.note_btn_play_white);
         // 点击上一首按钮广播
         Intent previousIntent=new Intent(MusicService.NotificationReceiver.ACTION_STATUS_BAR);
         previousIntent.putExtra(MusicService.NotificationReceiver.EXTRA, MusicService.NotificationReceiver.EXTRA_PRE);

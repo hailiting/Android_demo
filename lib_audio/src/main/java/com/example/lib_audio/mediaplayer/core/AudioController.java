@@ -59,6 +59,7 @@ public class AudioController {
     public void setQueue(ArrayList<AudioBean> queue, int queueIndex){
         mQueue.addAll(queue);
         mQueueIndex = queueIndex;
+        RoomHelper.selectAudioBeans(queue);
     }
     public void addAudio( AudioBean bean){
         this.addAudio(0, bean);

@@ -31,7 +31,7 @@ public class IndicatorView extends RelativeLayout implements ViewPager.OnPageCha
      */
     private Context mContext;
     private ImageView mImageView;
-    private ViewPager mViewPager;
+    private ViewPager mViewPager;//可以切换的viewpage
     private MusicPagerAdapter mAdapter;
 
     /**
@@ -72,7 +72,9 @@ public class IndicatorView extends RelativeLayout implements ViewPager.OnPageCha
         View rootView = LayoutInflater.from(mContext).inflate(R.layout.indictor_view, this);
         mImageView = rootView.findViewById(R.id.tip_view);
         mViewPager = rootView.findViewById(R.id.view_pager);
+        // mQueue 歌曲列表
         mAdapter = new MusicPagerAdapter(mQueue, mContext);
+        // 为viewpager绑定adapter
         mViewPager.setAdapter(mAdapter);
         showLoadView(false);
         // 要在UI初始化完，否则会多一次listener响应
@@ -92,7 +94,7 @@ public class IndicatorView extends RelativeLayout implements ViewPager.OnPageCha
     public void onPageScrollStateChanged(int state) {
         switch (state) {
             case ViewPager.SCROLL_STATE_IDLE:
-                // 滑动结束
+                // 滑动结束，或没有滑动
                 showPlayView();
                 break;
             case ViewPager.SCROLL_STATE_DRAGGING:
@@ -100,6 +102,7 @@ public class IndicatorView extends RelativeLayout implements ViewPager.OnPageCha
                 showPauseView();
                 break;
             case ViewPager.SCROLL_STATE_SETTLING:
+                // 惯性滚动时
                 break;
         }
     }
@@ -124,6 +127,7 @@ public class IndicatorView extends RelativeLayout implements ViewPager.OnPageCha
         mViewPager.setCurrentItem(mQueue.indexOf(mAudioBean), isSmooth);
     }
     private void showPlayView(){
+        // 恢复或启动动画
         Animator anim = mAdapter.getAnim(mViewPager.getCurrentItem());
         if(anim != null){
             if(anim.isPaused()){

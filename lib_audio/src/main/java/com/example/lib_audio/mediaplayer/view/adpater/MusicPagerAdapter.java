@@ -39,6 +39,7 @@ public class MusicPagerAdapter extends PagerAdapter {
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
+        // 初始化 item
         View rootView = LayoutInflater.from(mContext).inflate(R.layout.indictor_item_view, null);
         ImageView imageView = rootView.findViewById(R.id.circle_view);
         container.addView(rootView);
@@ -47,6 +48,10 @@ public class MusicPagerAdapter extends PagerAdapter {
         mAnims.put(position, createAnim(rootView)); // 将动画缓存起来
         return rootView;
     }
+
+    /**
+     * 创建旋转动画
+     */
     private ObjectAnimator createAnim(View view) {
         view.setRotation(0);
         ObjectAnimator animator = ObjectAnimator.ofFloat(view, View.ROTATION.getName(), 0, 360);
@@ -59,6 +64,7 @@ public class MusicPagerAdapter extends PagerAdapter {
         return animator;
     }
     public ObjectAnimator getAnim(int pos) {
+        // 获取动画位置
         return mAnims.get(pos);
     }
     @Override

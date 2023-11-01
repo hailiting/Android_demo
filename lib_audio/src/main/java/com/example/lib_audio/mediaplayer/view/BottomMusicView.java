@@ -37,6 +37,10 @@ public class BottomMusicView extends RelativeLayout {
     private ImageView mRightView;
 
     /**
+     * animation
+     */
+    private ObjectAnimator mRotateAnimator;
+    /**
      * 播放实体
      */
     private AudioBean mAudioBean;
@@ -63,12 +67,12 @@ public class BottomMusicView extends RelativeLayout {
         });
         mLeftView = rootView.findViewById(R.id.album_view);
         // 动画，让左侧mLeftView不停的旋转 暂停  动画也暂停  播放  动画也播放
-        ObjectAnimator animator = ObjectAnimator.ofFloat(mLeftView, View.ROTATION.getName(), 0f, 360);
+        mRotateAnimator = ObjectAnimator.ofFloat(mLeftView, View.ROTATION.getName(), 0f, 360);
         // 10s 转一圈
-        animator.setDuration(10000);
-        animator.setInterpolator(new LinearInterpolator());
-        animator.setRepeatCount(-1);
-        animator.start();
+        mRotateAnimator.setDuration(10000);
+        mRotateAnimator.setInterpolator(new LinearInterpolator());
+        mRotateAnimator.setRepeatMode(ObjectAnimator.RESTART);
+        mRotateAnimator.setRepeatCount(ObjectAnimator.INFINITE);
         // 动画 end
         mTitleView = rootView.findViewById(R.id.audio_name_view);
         mAlbumView = rootView.findViewById(R.id.audio_album_view);
@@ -129,10 +133,16 @@ public class BottomMusicView extends RelativeLayout {
         if(mAudioBean != null){
             mPlayView.setImageResource(R.mipmap.note_btn_pause_white);
         }
+        if(mRotateAnimator.isPaused()){
+            mRotateAnimator.resume();
+        } else {
+            mRotateAnimator.start();
+        }
     }
     private void showPauseView(){
         if(mAudioBean != null){
             mPlayView.setImageResource(R.mipmap.note_btn_play_white);
         }
+        mRotateAnimator.pause();
     }
 }
