@@ -12,6 +12,7 @@ import com.example.imooc_voice.R;
 import com.example.imooc_voice.view.home.HomeActivity;
 import com.example.lib_common_ui.base.BaseActivity;
 import com.example.lib_common_ui.base.constant.Constant;
+import com.example.lib_pullalive.app.AliveJobService;
 
 
 public class LoadingActivity extends BaseActivity {
@@ -27,6 +28,7 @@ public class LoadingActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading_layout);
+        pullAliveService();
         if(hasPermission(Constant.WRITE_READ_EXTERNAL_PERMISSION)){
             doSDCardPermission();
         } else  {
@@ -35,6 +37,9 @@ public class LoadingActivity extends BaseActivity {
                     Constant.WRITE_READ_EXTERNAL_PERMISSION
             );
         }
+    }
+    private void pullAliveService() {
+        AliveJobService.start(this);
     }
     public void doSDCardPermission() {
         mHandler.sendEmptyMessageDelayed(0, 3000);
