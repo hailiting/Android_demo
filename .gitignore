@@ -1,10 +1,14 @@
 # 排除所有 .idea 目录
 **/.idea/
 *.iml
-.gradle
 project/.idea/*
 .DS_Store
 project/build
 project/captures
 .externalNativeBuild
 .cxx
+# Ignore Gradle build files
+.gradle/
+
+# Ignore Android Studio project files
+.idea/
