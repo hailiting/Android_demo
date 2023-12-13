@@ -1,10 +1,8 @@
 package com.example.lib_common_ui.recyclerview;
 
 import android.content.Context;
-import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -17,20 +15,20 @@ import java.util.List;
 
 public class MultiItemTypeAdapter<T> extends RecyclerView.Adapter<ViewHolder> {
     protected Context mContext;
-    protected List<T> mDatas;
+    protected List<T> mDatum;
     protected ItemViewDelegateManager mItemViewDelegateManager;
     protected OnItemClickListener mOnItemClickListener;
 
-    public MultiItemTypeAdapter(Context context, List<T> datas) {
+    public MultiItemTypeAdapter(Context context, List<T> datum) {
         mContext = context;
-        mDatas = datas;
+        mDatum = datum;
         mItemViewDelegateManager = new ItemViewDelegateManager();
     }
 
     @Override
     public int getItemViewType(int position) {
         if (!useItemViewDelegateManager()) return super.getItemViewType(position);
-        return mItemViewDelegateManager.getItemViewType(mDatas.get(position), position);
+        return mItemViewDelegateManager.getItemViewType(mDatum.get(position), position);
     }
 
     @Override
@@ -76,7 +74,7 @@ public class MultiItemTypeAdapter<T> extends RecyclerView.Adapter<ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        convert(holder, mDatas.get(position));
+        convert(holder, mDatum.get(position));
     }
 
     public void convert(ViewHolder holder, T t) {
@@ -85,15 +83,15 @@ public class MultiItemTypeAdapter<T> extends RecyclerView.Adapter<ViewHolder> {
 
     @Override
     public int getItemCount() {
-        int itemCount = mDatas.size();
+        int itemCount = mDatum.size();
         return itemCount;
     }
 
     public List<T> getDatas() {
-        return mDatas;
+        return mDatum;
     }
     public void addDates(List<T> datas) {
-        mDatas.addAll(datas);
+        mDatum.addAll(datas);
         notifyDataSetChanged();
     }
     public MultiItemTypeAdapter addItemViewDelegate(ItemViewDelegate<T> itemViewDelegate) {

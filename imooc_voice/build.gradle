@@ -46,6 +46,11 @@ dependencies {
     implementation project(path: ':lib_audio')
     implementation project(path: ':lib_pullalive')
     implementation project(path: ':lib_pullalive')
+    implementation project(path: ':lib_video')
+    implementation project(path: ':lib_video')
+    implementation project(path: ':lib_video')
+    implementation project(path: ':lib_video')
+    implementation project(path: ':lib_video')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
